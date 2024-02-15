@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: brown;
+}
+
+a::after{
+    text-decoration: underline;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: brown;
+    transform-origin: bottom right;
+    transition: transform 0.65s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
