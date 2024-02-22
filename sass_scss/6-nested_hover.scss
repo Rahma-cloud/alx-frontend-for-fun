@@ -1,7 +1,8 @@
-/* Assign colors to button */
+/* Assign color to button */
+
 button {
     color: #FF0000;
-    &:hover {
+    :hover {
         color: #00FF00;
     }
 }
