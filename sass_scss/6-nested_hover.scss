@@ -1,8 +1,10 @@
 /* Assign color to button */
+$previous-color: #FF0000;
+$after-color: #00FF00;
 
 button {
-    color: #FF0000;
-    :hover {
-        color: #00FF00;
+    color: $previous-color;
+    &:hover {
+        color: $after-color;
     }
 }
