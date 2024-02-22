@@ -1,9 +1,11 @@
 /* Assign color to button */
+
 $previous-color: #FF0000;
 $after-color: #00FF00;
 
 button {
     color: $previous-color;
+    
     &:hover {
         color: $after-color;
     }
