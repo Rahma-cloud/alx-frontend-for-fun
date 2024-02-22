@@ -1,0 +1,13 @@
+/* Assigns margin */
+
+@mixin position($position: margin) {
+    margin-right: $position;
+    margin-left: $position;
+}
+body {
+    @include position($position: 10px);
+}
+
+div {
+    @include position($position: 15px);
+}
