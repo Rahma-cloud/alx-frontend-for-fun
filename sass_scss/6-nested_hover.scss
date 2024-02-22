@@ -1,7 +1,9 @@
 /* Assign color to button */
 
-button
-  color: #FF0000
-  
-  &:hover
-    color: #00FF00
+button {
+    background-color: #FF0000;
+    
+    &:hover {
+        background-color: #00FF00;
+    }
+}
